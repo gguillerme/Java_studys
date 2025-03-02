@@ -5,6 +5,7 @@ public class exercicio_03 {
 	// calcule e mostre a diferença do produto pelo produto de C e D segundo a
 	// fórmula: DIFERENCA = (A * B - C * D).
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 
 		int A, B, C, D, diferenca;
@@ -20,6 +21,8 @@ public class exercicio_03 {
 
 		diferenca = A * B - C * D;
 		System.out.println("A diferença é: " + diferenca);
+		
+		sc.close();
 	}
 
 }
