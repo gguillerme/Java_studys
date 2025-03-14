@@ -16,13 +16,10 @@ public class Program {
 		System.out.println("Escreva a data do produto ");
 		
 		System.out.print("Nome: ");
-		product.name = sc.nextLine();
+		product.setName(sc.nextLine());
 
 		System.out.print("Preço: ");
-		product.price = sc.nextDouble();
-		
-		System.out.print("Quantidade no estoque: ");
-		product.quantity = sc.nextInt();
+		product.setPrice(sc.nextDouble());
 		
 		System.out.println();
 		System.out.print("Dados do produto: " + product.toString());
